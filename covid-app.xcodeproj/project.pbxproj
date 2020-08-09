@@ -14,6 +14,7 @@
 		965417E924DFCA1E00D2EE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965417E824DFCA1E00D2EE96 /* Assets.xcassets */; };
 		965417EC24DFCA1E00D2EE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965417EA24DFCA1E00D2EE96 /* LaunchScreen.storyboard */; };
 		965417F424DFCCD400D2EE96 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417F324DFCCD400D2EE96 /* CountryViewController.swift */; };
+		965417F624DFCFE200D2EE96 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417F524DFCFE200D2EE96 /* CountryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		965417EB24DFCA1E00D2EE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965417ED24DFCA1E00D2EE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		965417F324DFCCD400D2EE96 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		965417F524DFCFE200D2EE96 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				965417EA24DFCA1E00D2EE96 /* LaunchScreen.storyboard */,
 				965417ED24DFCA1E00D2EE96 /* Info.plist */,
 				965417F324DFCCD400D2EE96 /* CountryViewController.swift */,
+				965417F524DFCFE200D2EE96 /* CountryTableViewCell.swift */,
 			);
 			path = "covid-app";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				965417F424DFCCD400D2EE96 /* CountryViewController.swift in Sources */,
 				965417E024DFCA1B00D2EE96 /* AppDelegate.swift in Sources */,
 				965417E224DFCA1B00D2EE96 /* SceneDelegate.swift in Sources */,
+				965417F624DFCFE200D2EE96 /* CountryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
