@@ -17,6 +17,7 @@
 		965417F624DFCFE200D2EE96 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417F524DFCFE200D2EE96 /* CountryTableViewCell.swift */; };
 		965417FE24DFD1ED00D2EE96 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417FD24DFD1ED00D2EE96 /* Constants.swift */; };
 		9654180024DFD30900D2EE96 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417FF24DFD30900D2EE96 /* CountryModel.swift */; };
+		9654180224DFD77D00D2EE96 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9654180124DFD77D00D2EE96 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		965417F524DFCFE200D2EE96 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		965417FD24DFD1ED00D2EE96 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		965417FF24DFD30900D2EE96 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		9654180124DFD77D00D2EE96 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				965417FF24DFD30900D2EE96 /* CountryModel.swift */,
+				9654180124DFD77D00D2EE96 /* Response.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9654180224DFD77D00D2EE96 /* Response.swift in Sources */,
 				9654180024DFD30900D2EE96 /* CountryModel.swift in Sources */,
 				965417E424DFCA1B00D2EE96 /* ViewController.swift in Sources */,
 				965417F424DFCCD400D2EE96 /* CountryViewController.swift in Sources */,
