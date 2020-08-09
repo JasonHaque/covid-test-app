@@ -46,6 +46,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="CountryNameLabel" destination="EZ6-PI-oUJ" id="aNp-XZ-j7S"/>
                                             <segue destination="cOr-WH-aT1" kind="show" identifier="detailsSegue" id="389-uZ-qa8"/>
                                         </connections>
                                     </tableViewCell>
