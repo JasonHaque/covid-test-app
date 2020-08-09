@@ -159,6 +159,15 @@
                         <viewLayoutGuide key="safeArea" id="0ef-LE-0fl"/>
                     </view>
                     <navigationItem key="navigationItem" id="bTy-Xd-WhO"/>
+                    <connections>
+                        <outlet property="CountryName" destination="Uye-Ig-ysw" id="GQd-pV-7uL"/>
+                        <outlet property="DailyConfirmed" destination="Xtd-bY-sT8" id="r8H-fW-BVs"/>
+                        <outlet property="DailyDeaths" destination="otU-TA-tNT" id="Axz-7u-UKI"/>
+                        <outlet property="DailyRecovered" destination="nYd-n9-n3f" id="0zh-13-wGD"/>
+                        <outlet property="TotalConfirmed" destination="CiK-h3-VjB" id="OJ0-xo-a0q"/>
+                        <outlet property="TotalDeaths" destination="TcJ-ko-MmK" id="PtR-o8-HCy"/>
+                        <outlet property="TotalRecovered" destination="g5D-Pc-dg3" id="6Zk-Mf-Syq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGL-3M-Z1t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

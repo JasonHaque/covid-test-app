@@ -9,7 +9,23 @@
 import UIKit
 
 class CountryViewController: UIViewController {
-
+    
+    //IB outlets
+    
+    @IBOutlet weak var CountryName: UILabel!
+    
+    @IBOutlet weak var DailyConfirmed: UILabel!
+    
+    @IBOutlet weak var DailyDeaths: UILabel!
+    
+    @IBOutlet weak var DailyRecovered: UILabel!
+    
+    @IBOutlet weak var TotalConfirmed: UILabel!
+    
+    @IBOutlet weak var TotalDeaths: UILabel!
+    
+    @IBOutlet weak var TotalRecovered: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
