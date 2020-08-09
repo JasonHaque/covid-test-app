@@ -27,6 +27,7 @@ class CountryViewController: UIViewController {
     
     @IBOutlet weak var TotalRecovered: UILabel!
     
+    @IBOutlet weak var flagImage: UIImageView!
     var countryData : CountryModel?
     
     override func viewDidLoad() {
@@ -37,8 +38,35 @@ class CountryViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         
+        guard countryData != nil else{
+            return
+        }
         print(countryData!)
         
+        CountryName.text = countryData!.country
+        DailyConfirmed.text = "Confirmed : \(countryData!.todayCases)"
+        DailyDeaths.text = "Deaths : \(countryData!.todayDeaths)"
+        DailyRecovered.text = "Recovered : \(countryData!.todayRecovered)"
+        
+        TotalConfirmed.text = "Confirmed : \(countryData!.cases)"
+        TotalDeaths.text = "Deaths : \(countryData!.deaths)"
+        TotalRecovered.text = "Recovered : \(countryData!.recovered)"
+        
+        
+        guard let flagUrl = URL(string: countryData!.countryInfo.flag) else {
+          print("Flag Error")
+          return
+        }
+        
+        let task = URLSession.shared.dataTask(with: flagUrl) { (data, response, error) in
+          if let data = data {
+            let downloadedImage = UIImage(data: data)
+            DispatchQueue.main.async {
+              self.flagImage.image = downloadedImage
+            }
+          }
+        }
+        task.resume()
         
     }
     

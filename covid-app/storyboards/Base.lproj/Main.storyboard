@@ -170,6 +170,7 @@
                         <outlet property="TotalConfirmed" destination="CiK-h3-VjB" id="OJ0-xo-a0q"/>
                         <outlet property="TotalDeaths" destination="TcJ-ko-MmK" id="PtR-o8-HCy"/>
                         <outlet property="TotalRecovered" destination="g5D-Pc-dg3" id="6Zk-Mf-Syq"/>
+                        <outlet property="flagImage" destination="O5d-8f-H4y" id="K10-Nu-ZFU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGL-3M-Z1t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
