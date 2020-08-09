@@ -13,6 +13,7 @@
 		965417E724DFCA1B00D2EE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965417E524DFCA1B00D2EE96 /* Main.storyboard */; };
 		965417E924DFCA1E00D2EE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965417E824DFCA1E00D2EE96 /* Assets.xcassets */; };
 		965417EC24DFCA1E00D2EE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965417EA24DFCA1E00D2EE96 /* LaunchScreen.storyboard */; };
+		965417F424DFCCD400D2EE96 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965417F324DFCCD400D2EE96 /* CountryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		965417E824DFCA1E00D2EE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		965417EB24DFCA1E00D2EE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965417ED24DFCA1E00D2EE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		965417F324DFCCD400D2EE96 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				965417E824DFCA1E00D2EE96 /* Assets.xcassets */,
 				965417EA24DFCA1E00D2EE96 /* LaunchScreen.storyboard */,
 				965417ED24DFCA1E00D2EE96 /* Info.plist */,
+				965417F324DFCCD400D2EE96 /* CountryViewController.swift */,
 			);
 			path = "covid-app";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				965417E424DFCA1B00D2EE96 /* ViewController.swift in Sources */,
+				965417F424DFCCD400D2EE96 /* CountryViewController.swift in Sources */,
 				965417E024DFCA1B00D2EE96 /* AppDelegate.swift in Sources */,
 				965417E224DFCA1B00D2EE96 /* SceneDelegate.swift in Sources */,
 			);
