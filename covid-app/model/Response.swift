@@ -8,9 +8,13 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    func countriesFetched(_ countries : [CountryModel])
+}
 
 class Response {
     var arrayofData = [CountryModel]()
+    var delegate : ModelDelegate?
     func getResponse(){
         let addressUrl = URL(string: Constants.API_KEY)
         
@@ -28,8 +32,12 @@ class Response {
                 self.arrayofData = country
                 
                // print(country)
+                
                 print(self.arrayofData)
                 
+                DispatchQueue.main.async {
+                    self.delegate?.countriesFetched(self.arrayofData)
+                }
             }catch{
                 print(error)
             }

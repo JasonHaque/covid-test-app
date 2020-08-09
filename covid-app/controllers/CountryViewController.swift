@@ -12,6 +12,7 @@ class CountryViewController: UIViewController {
     
     //IB outlets
     
+    
     @IBOutlet weak var CountryName: UILabel!
     
     @IBOutlet weak var DailyConfirmed: UILabel!
@@ -26,10 +27,19 @@ class CountryViewController: UIViewController {
     
     @IBOutlet weak var TotalRecovered: UILabel!
     
+    var countryData : CountryModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        print(countryData!)
+        
+        
     }
     
 
